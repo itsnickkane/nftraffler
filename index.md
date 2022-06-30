@@ -2,6 +2,14 @@
 
 #### Overview
 
+NFTRaffler.com is a website for communities to hold raffles of exhisting NFT's to drive community growth and engagment. Anyone will be able to create a raffle around an NFT they own so that it can be raffled off. The Raffler will add the contract address of their NFT, select which ERC20 token they will accept as payment for the raffle tickets and select the price per ticket and quantity of tickets. 
+
+From this info a raffle landing page will be created where community members will be able to view the NFT and purchase raffle tickets. 
+
+Ideally, this will be a way for new community members to have the opportunity to aquire ecosystem NFT's at a lower price then currently available in the secondary market, and allow the raffler to potentially sell their NFT's for a price above the current floor in the secondary market if structured correctly (price per ticket * quanity of tickets > floor price.
+
+### Smart Contract Story
+
 The NFT being raffled is placed into an escrow contract with a set number of raffle tickets.
 
 Once all raffle tickets have been sold, the winning ticket is selected by calling Chainlink VRF.

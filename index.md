@@ -1,4 +1,20 @@
-## Welcome to GitHub Pages
+## A Tool For Community Growth & Engagment
+
+#### Overview
+
+The NFT being raffled is placed into an escrow contract with a set number of raffle tickets.
+
+Once all raffle tickets have been sold, the winning ticket is selected by calling Chainlink VRF.
+
+If there are 0 outstanding tickets the raffle can be cancelled by the Raffler.
+
+The Raffler sets the quantity of tickets, the price per ticket, and the token (ERC20) accepted.
+
+For each raffle ticket sold, the platform will take a 3% fee. The proceeds from the raffle are held in the escrow contract until the raffle winner has been selected, at which time the proceeds from the raffle go to the Raffler and the winner receives the raffled NFT.
+
+Raffle tickets can be exchanged back to the contract for the original purchase price, less a 3% platform fee.
+
+### Github
 
 You can use the [editor on GitHub](https://github.com/itsnickkane/nftraffler/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
